@@ -1,0 +1,21 @@
+set1 = {
+    "a",
+    "b",
+    "c",
+    "Fatih",
+    "Danielle",
+    10,
+    12,
+    -1,
+    23,
+    "Ole",
+    "Michelle",
+    "Adam",
+    "b",
+    "c",
+    "Fatih",
+    "Danielle",
+    "Ola",
+    "Adam",
+
+}
