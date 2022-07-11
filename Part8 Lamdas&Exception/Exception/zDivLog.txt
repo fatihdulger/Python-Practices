@@ -1,0 +1,2 @@
+INFO:root:Division in progress 10 / 2 : 5.0
+ERROR:root:User attempt to divide by Zero
