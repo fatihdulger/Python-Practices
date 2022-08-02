@@ -6,7 +6,7 @@ from pymongo import MongoClient
 # Requires the PyMongo package.
 # https://api.mongodb.com/python/current
 
-client = MongoClient('mongodb+srv://fatihdulger:M31!h!mo4o415@fatihdb.ivd1jne.mongodb.net/test')
+client = MongoClient('mongodb+srv://fatihdulger:XXXXXXXXXX(need mongoDB password here).ivd1jne.mongodb.net/test')
 filter={}
 
 result = client['c10DB']['myCol'].find(
