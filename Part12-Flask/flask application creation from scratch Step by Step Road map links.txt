@@ -1,0 +1,31 @@
+Python Flask Application from Scratch!!!
+
+https://pythonbasics.org/flask-login/
+https://pythonbasics.org/flask-sqlite/
+https://pythonbasics.org/flask-upload-file/
+https://pythonbasics.org/flask-sessions/
+https://pythonbasics.org/flask-cookies/
+https://pythonbasics.org/flask-mail/
+https://pypi.org/project/Flask-Datepicker/
+https://pythonbasics.org/flask-cookies/
+https://pythonbasics.org/flask-tutorial-routes/
+https://pythonbasics.org/flask-http-methods/
+https://pythonbasics.org/flask-sqlite/
+https://pythonbasics.org/flask-mail/
+https://pythonbasics.org/flask-extensions/
+https://pythonbasics.org/flask-tutorial-hello-world/
+https://pythonbasics.org/python-to-web/
+https://flask.palletsprojects.com/en/2.0.x/patterns/sqlite3/
+https://flask.palletsprojects.com/en/2.0.x/
+https://flask.palletsprojects.com/en/2.0.x/tutorial/layout/
+https://flask.palletsprojects.com/en/2.0.x/api/#flask.get_flashed_messages
+https://dev.to/sm0ke/flask-python-tutorial-for-beginners-222f
+https://opensource.com/article/19/11/python-web-api-flask
+
+deploy flask
+https://flask.palletsprojects.com/en/2.1.x/deploying/
+https://python-adv-web-apps.readthedocs.io/en/latest/flask_deploy.html
+https://smirnov-am.github.io/deploy-flask/
+https://www.youtube.com/watch?v=SiCAIRc0pEI
+https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
+
