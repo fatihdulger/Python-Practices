@@ -1,0 +1,46 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1 class="text-lg-center">Songs</h1>
+
+<table class="table table-hover border-2 table-striped">
+  <thead>
+    <th scope="col">SongID</th>
+    <th scope="col">title</th>
+    <th scope="col">Artist</th>
+    <th scope="col">Genre</th>
+  </thead>
+
+  <tbody>
+    {% for row in songsInDB %}
+    <tr>
+      <td>{{ row["SongID"]}}</td>
+      <td>{{ row["Title"]}}</td>
+      <td>{{ row["Artist"]}}</td>
+      <td>{{ row["Genre"]}}</td>
+      <td>
+        <button type="button" class="btn btn-outline-primary btn-sm">
+          <a
+            class="text-decoration-none"
+            href="{{url_for('update', songID=row['SongID'])}}"
+            >Update</a
+          >
+        </button>
+        <!-- we used bootstrap sm class for small button and in every row it will show up-->
+        <form
+          action="{{url_for('delete', songID=row['SongID'])}}"
+          method="POST"
+        >
+          <input
+            type="submit"
+            value="X"
+            onclick="confirm('Do you want to Delete this song?')"
+            class="btn btn-danger btn-sm"
+          />
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock content %}
