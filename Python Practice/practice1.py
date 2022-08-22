@@ -8,12 +8,34 @@
 
 #Answer 1
 
-#name = input("Enter a your first name: ")
-#surname = input("Enter a your surname: ")
+name = input("Enter a your first name: ")
+surname = input("Enter a your surname: ")
 
-#fullName = "name " + surname
+fullName = "name " + surname
+fullName = name + " " + surname
 
-#print(f"My name is {name} {surname}")
+print(f"My name is {fullName}")
+print(f"My name is {name} {surname}")
+
+# Answer 2 
+
+num1 = int(input("Please enter your 1st number: "))
+num2 = int(input("Please enter your 2nd number: "))
+num3 = int(input("Please enter your 3rd number: "))
+numCalc= (num1 + num2) * num3
+
+print(f"the calculation for your numbers is: {num1} + {num2} * {num3} = {numCalc}")
+
+# 3 Answer
+
+width = float(input("please enter your swimming pool's width in meters here: "))
+length = float(input("please enter your swimming pool's length by meter here: "))
+depth = float(input("please enter your swimming pool's depth by meter here: "))
+
+totalVol = width * length * depth
+
+print(f"based on your pool's measurement entered, the amount of water to fill the pool is: {totalVol} m3")
+
 
 
 # 4 Answer
